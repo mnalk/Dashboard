@@ -1,0 +1,73 @@
+body {
+  color: whitesmoke;
+  font-family: 'Poppins', sans-serif;
+  font-size: .8em;
+  
+}
+pre {
+  font-size: 2em;
+}
+.marks .land {
+  fill: #ca1111;
+}
+.marks .sphere {
+  fill: #6b9e69;
+}
+.marks .interiors {
+  fill: none;
+  stroke: #9c4949;
+}
+.marks .graticules, .tick line {
+  fill: none;
+  stroke: #f16262;
+}
+circle {
+ fill: #9c271a;
+  opacity: 0.3;
+}
+
+.tick text {
+  fill: #df1462;
+  font-size: 1.0em;
+}
+.mark {
+  fill: #1e1261;
+}
+.axis-label {
+  font-size: .1em;
+  fill: #1c30a5;
+}
+
+
+.tippy-box[data-theme~='suicide'] {
+  background-color: pink;
+  color: black;
+}
+
+
+.tippy-box[data-theme~='suicide'] > .tippy-svg-arrow {
+  fill: tomato;
+}
+
+.tippy-box[data-theme~='tomato'] {
+  background-color: tomato;
+  color: yellow;
+}
+
+/* 
+.tippy-tooltip.bootstrap-theme {
+  background: rgb(11, 150, 53);
+}
+
+.tippy-tooltip.bootstrap-theme[data-placement^="top"] .tippy-arrow {
+  border-top-color: rgb(165, 9, 9);
+}
+.tippy-tooltip.bootstrap-theme[data-placement^="bottom"] .tippy-arrow {
+  border-bottom-color: rgb(126, 21, 117);
+}
+.tippy-tooltip.bootstrap-theme[data-placement^="left"] .tippy-arrow {
+  border-left-color: black;
+}
+.tippy-tooltip.bootstrap-theme[data-placement^="right"] .tippy-arrow {
+  border-right-color: rgb(51, 49, 150);
+} */
